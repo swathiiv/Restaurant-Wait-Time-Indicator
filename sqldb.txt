@@ -1,0 +1,11 @@
+create table Customer(
+    CustomerId int primary key AUTO_INCREMENT,
+    CustomerName varchar(50), EmailId varchar(50), UserName varchar(50), Password varchar(50));
+
+
+Create table Booking(
+    BookingId int primary key AUTO_INCREMENT,
+    CustomerId int, CustomerName varchar(50), EmailId varchar(50), 
+    PhoneNum varchar(50), 
+    BookingDate varchar(50), 
+    BookingTime varchar(50));
